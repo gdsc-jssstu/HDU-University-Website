@@ -63,7 +63,7 @@ The project structure is as follows:
 ## Final Vision/Guiding Designs of the project
 
 - These are designs to help visualise and guide the development of the project. The final version of the project may or may not look like this. Creative freedom is encouraged.
-- Click [here](https://www.figma.com/) for the UI design and prototype of the project.
+- Click [here](https://www.figma.com/proto/aILrEaqatJsdRCtWM5KgE6/Jssstu-web?node-id=15-97&starting-point-node-id=15%3A97) for the UI design and prototype of the project.
 
 ## Intended Final Project
 
