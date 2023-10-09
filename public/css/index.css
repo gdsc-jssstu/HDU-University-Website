@@ -38,7 +38,7 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #016a6b;
   letter-spacing: 2px;
-  font-size: 50px;
+  font-size: 3vw;
 }
 /* #table {
   align-self: center;
@@ -46,7 +46,7 @@ h1 {
 .box {
   height: 25px;
   width: 100px;
-  font-size: 30px;
+  font-size: 2.6vw;
   text-align: center;
   border: 2px solid rgb(212, 97, 4);
   color: rgb(212, 97, 4);
@@ -66,7 +66,7 @@ td {
 .box2 {
   height: 50px;
   width: 70%;
-  font-size: larger;
+  font-size: 2vw;
   background-color: rgb(212, 97, 4);
   color: white;
   border-top-left-radius: 10px;
@@ -84,7 +84,62 @@ td {
   border-bottom-right-radius: 10px;
   background-color: rgb(212, 97, 4);
   text-align: center;
-  font-size: 40px;
+  font-size: 2vw;
   font-weight: 35px;
   letter-spacing: 1px;
+}
+@media (max-width: 400px) {
+  #table,
+  #table tr,
+  #table td {
+    display: block;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .main {
+    /* Center horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+
+    /* Center vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Additional styling */
+    width: 40%;
+    height: auto;
+    /* You can adjust the width as needed */
+    padding: 70px;
+    background-color: #f0f0f0c4;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+  }
+  body {
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-back-school-background_23-2149464866.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: repeat;
+  }
+  .box2 {
+    border-radius: 10px;
+    margin-bottom: 3%;
+    width: max-content;
+    font-size: 10px;
+    position: relative;
+    top: 100;
+  }
+  .box3 {
+    border-radius: 10px;
+    font-size: 15px;
+  }
+}
+@media (orientation: landscape) {
+  body {
+    background-repeat: repeat;
+  }
 }
