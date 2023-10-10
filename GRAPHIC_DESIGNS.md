@@ -5,3 +5,4 @@
 
 # Contributed Graphic Designs
 - [Logo](./public/assets/images/logo.png) by [Nida](https://github.com/nida242004)
+- [Homepage for HDU for Mobile screens](https://www.figma.com/file/5ed7F5XGEdbx9lZFDW6o4c/HDU-website?type=design&node-id=0%3A1&mode=design&t=bDO3fwdIkxmJhdYR-1) by [Nida](https://github.com/nida242004)
