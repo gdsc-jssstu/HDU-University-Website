@@ -1,4 +1,4 @@
-# 🏫 HDU-Univeristy-Website 🎓
+# 🏫 HDU-University-Website 🎓
 
 HDU (Hypothetical Dream University) Website is a beginner-friendly open-source project to challenge the community to create an aesthetically designed and responsive university website for a university called HDU. Essentially we would like to reimagine the [JSSSTU website](https://jssstuniv.in), built by the community. Both beginners in web development and graphic designers are welcome to work together to make HDU's website look amazing. The website must contain all the pages that a general university website may have, you can have a look at [JSSSTU's website](https://jssstuniv.in) for an idea of this.
 
@@ -63,7 +63,7 @@ The project structure is as follows:
 ## Final Vision/Guiding Designs of the project
 
 - These are designs to help visualise and guide the development of the project. The final version of the project may or may not look like this. Creative freedom is encouraged.
-- Click [here](https://www.figma.com/) for the UI design and prototype of the project.
+- Click [here](https://www.figma.com/proto/aILrEaqatJsdRCtWM5KgE6/Jssstu-web?node-id=15-97&starting-point-node-id=15%3A97) for the UI design and prototype of the project.
 
 ## Intended Final Project
 

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/hand-drawn-back-school-background_23-2149464866.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.main {
+  /* Center horizontally */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+
+  /* Center vertically */
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Additional styling */
+  width: 80%;
+  height: auto;
+  /* You can adjust the width as needed */
+  padding: 70px;
+  background-color: #f0f0f0c4;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #016a6b;
+  letter-spacing: 2px;
+  font-size: 3vw;
+}
+/* #table {
+  align-self: center;
+} */
+.box {
+  height: 25px;
+  width: 100px;
+  font-size: 2.6vw;
+  text-align: center;
+  border: 2px solid rgb(212, 97, 4);
+  color: rgb(212, 97, 4);
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.445);
+}
+.box1 {
+  height: 50px;
+  width: 65px;
+}
+td {
+  padding: 7px;
+}
+.code {
+  text-align: center;
+}
+.box2 {
+  height: 50px;
+  width: 70%;
+  font-size: 2vw;
+  background-color: rgb(212, 97, 4);
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-family: "Young Serif", serif;
+  letter-spacing: 2.5px;
+}
+.box3 {
+  height: 50px;
+  width: 10%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(212, 97, 4);
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 35px;
+  letter-spacing: 1px;
+}
+@media (max-width: 400px) {
+  #table,
+  #table tr,
+  #table td {
+    display: block;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .main {
+    /* Center horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+
+    /* Center vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Additional styling */
+    width: 40%;
+    height: auto;
+    /* You can adjust the width as needed */
+    padding: 70px;
+    background-color: #f0f0f0c4;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+  }
+  body {
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-back-school-background_23-2149464866.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: repeat;
+  }
+  .box2 {
+    border-radius: 10px;
+    margin-bottom: 3%;
+    width: max-content;
+    font-size: 10px;
+    position: relative;
+    top: 100;
+  }
+  .box3 {
+    border-radius: 10px;
+    font-size: 15px;
+  }
+}
+@media (orientation: landscape) {
+  body {
+    background-repeat: repeat;
+  }
+}
