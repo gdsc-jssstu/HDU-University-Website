@@ -9,8 +9,47 @@
       rel="stylesheet"
     />
     <title>HDU - Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   </head>
-  <body>
+
+<body>
+
+    <nav class="nav navbar navbar-inverse " style="margin-bottom: 0; background-color:#00686A ;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="one "> <a href="#">ABOUT</a></li>
+
+                    <li class="two fif" onclick="myFunction(this)"><a href="#">ACADEMICS</a></li>
+                    <li class="three fif" onclick="myFunction(this)"><a href="#">RESEARCH</a></li>
+                    <li class="four" onclick="myFunction(this)"><a href="#">PROGRAMMES</a></li>
+                    <li class="five" onclick="myFunction(this)"><a href="#">PLACEMENT</a></li>
+                    <li class="six" onclick="myFunction(this)"><a href="#">RANKING</a></li>
+                    <li class="seven" onclick="myFunction(this)"><a href="#">LIFE AT JSS STU</a></li>
+
+                    <li class="dropdown dropbtn" id="fif">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="padding-top: 7%;">Menu<span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-content">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
     <div class="main">
       <h1>
         <i>Admissions for 2023-24 are now open</i>
@@ -73,5 +112,12 @@
       </table>
     </div>
     <script src="./public/js/index.js"></script>
+    <div id="orange" style="margin-top: 0; padding-top: 0;"></div>
+    <div id="white"></div>
+    <script>
+        function myFunction(element) {
+            element.style.backgroundcolor = red;
+        }
+    </script>
   </body>
 </html>

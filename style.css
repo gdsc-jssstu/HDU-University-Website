@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    height: 80px;
+    background-color: #00686A;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fif:hover {
+    color: #000000;
+
+}
+
+li {
+    display: inline;
+    flex-wrap: wrap;
+    color: white;
+    padding: 10px 7px;
+}
+
+li a {
+    display: inline;
+    color: white;
+    align-items: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+img {
+    height: 50px;
+    margin: 0px;
+}
+
+#orange {
+    height: 2px;
+    background-color: orange;
+}
+
+#white {
+    height: 60px;
+    background-color: aliceblue;
+}
+
+@media (max-width:1398px) {
+    .seven {
+        display: none;
+    }
+}
+
+@media (max-width:1201px) {
+    .six {
+        display: none;
+    }
+}
+
+@media (max-width:1059px) {
+    .five {
+        display: none;
+    }
+}
+
+@media (max-width:890px) {
+    .four {
+        display: none;
+    }
+}
+
+@media (max-width:699px) {
+    .three {
+        display: none;
+    }
+}
+
+@media (max-width:546px) {
+    .two {
+        display: none;
+    }
+}
+
+@media (max-width:546px) {
+    .one {
+        display: none;
+    }
+}
+
+.dropbtn {
+    background-color: #00686A;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00686A;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #00686A
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li :hover {
+    color: orange;
+}
