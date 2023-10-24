@@ -73,3 +73,13 @@ The project structure is as follows:
 
 - [Sayed Afnan Khazi](https://github.com/Sayed-Afnan-Khazi)
 - [Aryan Thakur](https://github.com/Aryan-Kumar-Thakur)
+
+## Steps to use Docker 
+
+```bash
+docker build -t your-image-name:tag .
+```
+
+```bash
+docker run -itd -p 80:80 -p 443:443 your-image-name:tag
+```

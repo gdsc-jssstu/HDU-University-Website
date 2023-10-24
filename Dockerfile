@@ -1,7 +1,5 @@
-FROM ubuntu
-RUN apt update -y
-LABEL maintainer="Rohan Rustagi"
-RUN apt install nginx -y
-COPY . /var/www/html
-EXPOSE 80
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+EXPOSE 80 443
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 CMD ["nginx", "-g", "daemon off;"]
